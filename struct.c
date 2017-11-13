@@ -88,6 +88,10 @@ void BTreeInsertNonFull(BTreeNode *x, node k)
         	while(i >= 0 && x->keys[i].key > k.key) 
 		{
             		x->keys[i+1].key = x->keys[i].key;
+			strcpy(x->keys[i+1].country,k.country);
+			strcpy(x->keys[i+1].grade , k.grade);
+			x->keys[i+1].score = k.score;
+			x->keys[i+1].rate = k.rate;
             		i--;
         	}
         	x->keys[i+1].key = k.key;
