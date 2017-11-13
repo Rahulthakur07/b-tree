@@ -1,3 +1,6 @@
+/*
+	Algorithm Implemented from "Introduction to Algorithms by Thomas H. Cormen" text book ..!!!!  
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "struct.h"
