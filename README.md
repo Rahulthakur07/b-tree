@@ -11,3 +11,6 @@ operations :
 1) insert 
 2) search 
 3) traverse 
+
+Execution of the file :
+  make -f list.make
